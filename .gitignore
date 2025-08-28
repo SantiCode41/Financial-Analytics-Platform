@@ -1,0 +1,31 @@
+# Node.js/React
+node_modules/
+build/
+.env
+*.log
+npm-debug.log
+
+# Spring Boot/Java
+target/
+*.jar
+*.war
+*.class
+.m2/
+*.log
+*.iml
+.idea/
+*.properties.local
+
+# PostgreSQL
+*.sql
+*.dump
+
+# Docker
+*.dockerignore
+docker-compose.yml
+*.tar.gz
+
+# IDE and OS files
+.DS_Store
+*.swp
+.vscode/
