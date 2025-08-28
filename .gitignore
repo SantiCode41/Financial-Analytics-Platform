@@ -7,15 +7,17 @@ npm-debug.log
 
 # Spring Boot/Java
 target/
+!**/src/main/**/target/
+!**/src/test/**/target/
 *.jar
 *.war
+*.ear
 *.class
 .m2/
-*.log
-*.iml
-.idea/
+.mvn/wrapper/maven-wrapper.jar
 *.properties.local
 *.jks
+HELP.md
 
 # PostgreSQL
 *.sql
@@ -26,7 +28,27 @@ target/
 docker-compose.yml
 *.tar.gz
 
-# IDE and OS files
+# IDE and Editor Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# OS Files
 .DS_Store
 *.swp
-.vscode/
