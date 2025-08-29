@@ -1,8 +1,8 @@
-# Financial Health Web Application
+# Financial Health and Threat Detection Platform
 
-A full-stack web application designed to empower users with easy tools for managing personal and business finances. With this application users can track budgets, calculate net worth, and visualize financial stats via an easy to read and informative dashboard.
+A full-stack web application to monitor financial health, proactively detect threats like fraud or overspending, and deliver AI-driven insights for smarter decision making. Features budget tracking, net worth calculation, risk/opportunity alerts, action and event simulations, and a 0 through 100 score that serves as a high level gauge of one's current financial standing. Application allows for quick review via a dynamic dashboard. Supports personal and business users. Built with React, Spring Boot, PostgreSQL, and Docker, with CI/CD via GitHub Actions and Cloudflare for security.
 
-## Technologies
+## Technologies Used
 
 - **Backend**: Spring Boot, PostgreSQL
 - **Frontend**: React
