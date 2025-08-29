@@ -1,0 +1,23 @@
+# Maven Wrapper scripts in backend
+backend/mvnw text eol=lf
+backend/mvnw.cmd text eol=crlf
+
+# Common text files (use LF for cross-platform consistency)
+*.java text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.properties text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+
+# Binary files (no line ending conversion)
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
